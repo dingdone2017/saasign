@@ -1,5 +1,5 @@
 <?php
-namespace Hgdev\Saasign;
+namespace Dingdone2017\Saasign;
 
 /**
  * Created by PhpStorm.

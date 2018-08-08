@@ -5,7 +5,7 @@
  * Time: 14:20
  */
 
-namespace Hgdev\Saasign;
+namespace Dingdone2017\Saasign;
 
 use Closure;
 use Illuminate\Support\Facades\Redis;

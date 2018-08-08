@@ -6,7 +6,7 @@
  * Time: 10:55
  */
 
-namespace Hgdev\Saasign;
+namespace Dingdone2017\Saasign;
 
 
 use Illuminate\Http\Request;

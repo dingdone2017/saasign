@@ -1,5 +1,5 @@
 <?php
-namespace Hgdev\Saasign;
+namespace Dingdone2017\Saasign;
 use Exception;
 /**
  * Created by PhpStorm.

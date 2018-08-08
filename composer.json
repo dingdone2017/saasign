@@ -1,5 +1,5 @@
 {
-    "name": "hgdev/saasign",
+    "name": "dingdone2017/saasign",
     "description": "signature for saas child api",
     "type": "library",
     "license": "MIT",
@@ -15,15 +15,15 @@
         "classmap": [
         ],
         "psr-4": {
-            "Hgdev\\Saasign\\": "src/Saasign/"
+            "Dingdone2017\\Saasign\\": "src/Saasign/"
         }
     },
     "laravel":{
         "providers":[
-            "Hgdev\\Saasign\\SaasignServiceProvider"
+            "Dingdone2017\\Saasign\\SaasignServiceProvider"
         ],
         "aliases":{
-            "Saasign": "Hgdev\\Saasign\\SaasignFacade"
+            "Saasign": "Dingdone2017\\Saasign\\SaasignFacade"
         }
     }
 }
