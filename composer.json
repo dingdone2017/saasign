@@ -9,7 +9,6 @@
             "email": "jiyuting@hoge.cn"
         }
     ],
-    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "classmap": [
