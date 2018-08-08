@@ -1,0 +1,29 @@
+{
+    "name": "hgdev/saasign",
+    "description": "signature for saas child api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "janice",
+            "email": "jiyuting@hoge.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+            "Hgdev\\Saasign\\": "src/Saasign/"
+        }
+    },
+    "laravel":{
+        "providers":[
+            "Hgdev\\Saasign\\SaasignServiceProvider"
+        ],
+        "aliases":{
+            "Saasign": "Hgdev\\Saasign\\SaasignFacade"
+        }
+    }
+}
