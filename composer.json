@@ -18,7 +18,7 @@
         "classmap": [
         ],
         "psr-4": {
-            "Dingdone2017\\Saasign\\": "src/Saasign/"
+            "Dingdone2017\\Saasign\\": "src/"
         }
     },
     "laravel":{

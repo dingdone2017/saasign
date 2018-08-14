@@ -29,6 +29,11 @@ class SaasignServiceProvider extends BaseServiceProvider
         $this->app->singleton(Saasign::class, function ($app) {
             return new Saasign($app['config']->get('saasign'));
         });
+
+        $this->app->singleton(Saasseion::class, function ($app) {
+            return new Saasseion($app['config']->get('saasign'));
+        });
+
         $provider = $this;
 
         $this->app->singleton(Member::class, function () use ($provider) {
